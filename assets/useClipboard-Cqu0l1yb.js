@@ -1,0 +1,1 @@
+import{E as e}from"./element-plus-CdB1qSA2.js";function o(){return{copyText:async(r,t="已复制")=>{if(!r)return!1;try{return await navigator.clipboard.writeText(r),e.success(t),!0}catch{return e.error("复制失败，请手动选择复制"),!1}}}}export{o as u};
